@@ -24,7 +24,7 @@ facilitate inter-node communication:
 * `call`: We support sending requests to other peers that block on a
   response.
 
-* 'broadcast': We support sending a message to _every_ other peer without
+* `broadcast`: We support sending a message to _every_ other peer without
   waiting on a response
 
 * `broadcall`: We support sending a request to every other peer, and blocking

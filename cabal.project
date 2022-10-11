@@ -32,10 +32,10 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/owensmurray/om-kubernetes.git
-  tag: om-kubernetes-2.3.1.4
+  tag: om-kubernetes-2.3.1.5
 
 source-repository-package
   type: git
   location: https://github.com/owensmurray/om-http.git
-  tag: om-http-0.2.0.4
+  tag: om-http-0.3.0.0
 

@@ -1,6 +1,6 @@
 cabal-version:       3.0
 name:                om-legion
-version:             6.9.0.7
+version:             6.9.0.8
 synopsis:            Legion Framework.
 description:         Framework for managing shared, replicated state across a
                      number of homogeneous nodes.
@@ -20,13 +20,13 @@ common dependencies
   build-depends:
     , aeson              >= 2.2.1.0  && < 2.3
     , async              >= 2.2.5    && < 2.3
-    , base               >= 4.19.0.0 && < 4.21
+    , base               >= 4.19.0.0 && < 4.22
     , binary             >= 0.8.9.1  && < 0.9
     , bytestring         >= 0.12.0.2 && < 0.13
     , clock              >= 0.8.4    && < 0.9
     , containers         >= 0.6.8    && < 0.8
     , crdt-event-fold    >= 1.8.1.0  && < 1.9
-    , data-default-class >= 0.1.2.0  && < 0.2
+    , data-default-class >= 0.1.2.0  && < 0.3
     , http-api-data      >= 0.6      && < 0.7
     , monad-logger       >= 0.3.40   && < 0.4
     , mtl                >= 2.3.1    && < 2.4
@@ -41,7 +41,7 @@ common dependencies
     , stm                >= 2.5.2.1  && < 2.6
     , streaming          >= 0.2.4.0  && < 0.3
     , text               >= 2.1      && < 2.2
-    , time               >= 1.12.2   && < 1.13
+    , time               >= 1.12.2   && < 1.15
     , transformers       >= 0.6.1.0  && < 0.7
     , unliftio-core      >= 0.2.1.0  && < 0.3
     , uuid               >= 1.3.15   && < 1.4
